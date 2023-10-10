@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/firebase/geofire-objc"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = "Firebase"
-  s.source       = { :git => "https://github.com/firebase/geofire-objc.git", :tag => 'v' + s.version.to_s }
+  s.source       = { :git => "https://github.com/Bhawak/GeoFire", :tag => 'v' + s.version.to_s }
   s.ios.deployment_target = '11.0'
   s.requires_arc = true
   s.default_subspec = 'Database'
